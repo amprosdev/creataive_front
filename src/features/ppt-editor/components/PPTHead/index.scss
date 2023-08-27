@@ -1,0 +1,27 @@
+.ppt-header {
+  max-width: 1920px;
+  display: flex;
+  margin: auto;
+  background: #fff;
+  border-bottom: 1px solid #eceef0;
+  .ppt-header-project {
+    padding: 0 10px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .ppt-header-project-right {
+    flex: 1;
+    color: #726D6D;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    button {
+      height: 28px;
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+.app-header {
+  display: flex;
+  height: 54px;
+  border: 1px solid rgba(217, 217, 217, 0.6);
+
+  .app-site {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+    img {
+      max-width: 100%;
+      height: 28px;
+    }
+  }
+
+  .app-header-right {
+    flex: 1;
+    color: #726D6D;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+}

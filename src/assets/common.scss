@@ -1,0 +1,93 @@
+@import "./graphic";
+
+h1 {
+  font-size: 20px !important;
+}
+
+
+.btn-new-file {
+  background-image: url("./images/icons/plus.svg");
+  background-size: 100% 100%;
+}
+
+.btn-wechat-file {
+  background-image: url("./images/icons/wechat.svg");
+  background-size: 100% 100%;
+}
+
+.btn-video-file {
+  background-image: url("./images/icons/video.svg");
+  background-size: 100% 100%;
+}
+
+.btn-media-file {
+  background-image: url("./images/icons/like.svg");
+  background-size: 100% 100%;
+}
+
+.btn-sku-file {
+  background-image: url("./images/icons/sku.svg");
+  background-size: 100% 100%;
+}
+
+.btn-branding-file {
+  background-image: url("./images/icons/branding-black.png");
+  background-size: 100% 100%;
+}
+
+.btn-more-file {
+  background-image: url("./images/icons/more.svg");
+  background-size: 100% 100%;
+}
+
+.icon-new-file {
+  background-image: url("./images/icons/plus.png");
+  background-size: 100% 100%;
+}
+
+.icon-wechat-file {
+  background-image: url("./images/icons/wechat.png");
+  background-size: 100% 100%;
+}
+
+.icon-video-file {
+  background-image: url("./images/icons/video.png");
+  background-size: 100% 100%;
+}
+
+.icon-media-file {
+  background-image: url("./images/icons/like.png");
+  background-size: 100% 100%;
+}
+
+.icon-sku-file {
+  background-image: url("./images/icons/sku.png");
+  background-size: 100% 100%;
+}
+
+.icon-branding-file {
+  background-image: url("./images/icons/branding.png");
+  background-size: 100% 100%;
+}
+
+.icon-more-file {
+  background-image: url("./images/icons/more.png");
+  background-size: 100% 100%;
+}
+
+h1 {
+  margin-bottom: .67em !important;
+  margin-top: .67em !important;
+}
+
+h2, h3, h4, h5, h6 {
+  color: revert !important;
+  font-weight: revert !important;
+}
+
+body {
+  line-height: revert !important;
+}
+.ant-modal-mask, .ant-modal-wrap{
+  z-index: 999 !important;  // 修正与 authing 弹窗冲突的bug
+}

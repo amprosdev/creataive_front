@@ -1,0 +1,20 @@
+.home-top-bar {
+  background: #EBD9FC;
+  width: calc(100% + 60px);
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -20px 0 0 -30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+
+  .purple {
+    color: #9667E0;
+    cursor: pointer;
+  }
+}

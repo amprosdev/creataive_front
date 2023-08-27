@@ -1,0 +1,28 @@
+.sign-in-form {
+  margin: 50px auto 0;
+  width: 400px;
+
+  .experience-account {
+    margin-right: 10px;
+    position: fixed;
+    top: 245px;
+    left: calc(50% + 15px);
+    z-index: 1001;
+    width: 56px;
+    height: 46px;
+    color: #878a95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: sans-serif;
+
+    &:hover {
+      color: #282d3c;
+    }
+
+    @media screen and (max-width: 768px) {
+      top: 254px;;
+    }
+  }
+}

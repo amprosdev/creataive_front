@@ -1,0 +1,15 @@
+.ppt-editor {
+  background: #fff;
+  display: flex;
+
+  .ppt-left {
+    flex: 1;
+    height: calc(100vh - 60px);
+    overflow: auto;
+  }
+
+  .ppt-right {
+    width: 500px;
+    border-left: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,16 @@
+.workspace {
+  //display: flex;
+  .workspace-header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.6);;
+  }
+  .workspace-shell {
+    margin: 60px auto 10px;
+    max-width: 1920px;
+  }
+}

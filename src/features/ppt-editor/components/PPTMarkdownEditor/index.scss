@@ -1,0 +1,264 @@
+.markdown-editor {
+  background: #fff;
+  color: #000;
+  min-height: 400px;
+  padding: 10px 120px;
+
+  .header {
+    padding-left: 20px;
+    min-width: 450px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      .ppt-title {
+        padding-right: 100px;
+      }
+
+      .ppt-title-btn {
+        display: flex;
+        color: #666;
+      }
+    }
+
+    & input {
+      background: none;
+      outline: none;
+      border: none;
+    }
+
+    .ppt-title-btn {
+      position: absolute;
+      right: -2px;
+      top: 0;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      display: none;
+      width: 100px;
+      height: 55px;
+      background: #fff;
+    }
+
+    .ppt-title {
+      width: 100%;
+      font-size: 32px;
+      line-height: 53px;
+      box-sizing: border-box;
+    }
+
+    .sub-title-box {
+      background-color: #eee;
+      padding: 10px 15px;
+      color: #433f39;
+      font-size: 16px;
+      margin-top: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+
+      .sub-title-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px 0;
+        max-width: 500px;
+
+        & > input {
+          width: 300px;
+          border-bottom: 1px dashed #333;
+        }
+      }
+
+    }
+  }
+
+  .right {
+    margin-top: 10px;
+
+    & > .item_text {
+      border-left: none !important;
+      padding-left: 0 !important;
+
+      & > .item_text {
+        border-left: none !important;
+      }
+
+      & > .dot {
+        left: 5px !important;
+      }
+    }
+
+    .item_image {
+      display: block;
+      cursor: pointer;
+    }
+
+    .markdown-item {
+      cursor: pointer;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      min-height: 20px;
+      padding-left: 29px;
+      color: #666;
+      height: auto;
+      border-left: 1px solid #e5e7eb;
+
+      & .activeHover {
+        border-top: 3px dashed blue !important;
+      }
+    }
+
+    .item_text {
+      &:hover {
+        & > .editor-bar-box {
+          & > .add {
+            & > .add-item {
+              color: #D0CFCD;
+            }
+          }
+        }
+      }
+
+      .editor-bar-box {
+        position: absolute;
+        left: 3px;
+        top: 7px;
+        width: 40px;
+        display: flex;
+
+        .add {
+          width: 18px;
+          height: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &:hover {
+            color: #d0cfcd;
+            background: #d0cfcd;
+            border-radius: 50%;
+
+            .add-item {
+              color: #616161;
+            }
+          }
+
+
+          .add-item {
+            display: block;
+            transition: background .2s;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 600;
+          }
+        }
+
+        .dot {
+          width: 18px;
+          height: 18px;
+          border-radius: 9px;
+          transition: all .2s;
+          cursor: grab;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &:hover {
+            background: #d0cfcd;
+
+            .dot-item {
+              background: #616161;
+            }
+          }
+
+          .dot-item {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #D0CFCD;
+            display: block;
+            transition: background .2s;
+          }
+        }
+      }
+
+
+      .item-editor {
+        flex: 1;
+        background: #fff;
+        cursor: text;
+        line-height: 2;
+        padding-left: 15px;
+      }
+
+      .img-item {
+        margin-left: 15px;
+        position: relative;
+        width: 200px;
+
+        &:hover {
+          border: 1px solid #eee;
+
+          .img-item-delete {
+            display: block;
+          }
+        }
+
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+
+        & .img-item-delete {
+          display: none;
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .fn-area {
+    width: 200px;
+    position: absolute;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 0 2px 8px #00000026;
+    padding: 4px 0;
+
+    .ant-divider {
+      margin: 5px 0 !important;
+    }
+
+    .fn-item {
+      height: 22px;
+      padding: 5px 12px;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      font-size: 14px;
+      align-items: center;
+
+      & > span:first-child {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background: #eee;
+      }
+
+      .shortcut-key {
+        color: #b1b1b1;
+        margin-left: auto;
+      }
+    }
+  }
+}

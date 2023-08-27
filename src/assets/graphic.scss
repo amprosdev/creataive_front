@@ -1,0 +1,21 @@
+.two_t_list_serial_num_230426 {
+  h4 {
+    margin-top: -100px !important;
+    margin-bottom: 50px !important;
+    text-align: left;
+  }
+  ul {
+    list-style-type: decimal !important;
+  }
+}
+
+.one_t_screen_right_20221012 {
+  display: flex;
+  h4 {
+    flex : 1;
+  }
+  ul {
+    flex: 1;
+    list-style-type: decimal;
+  }
+}

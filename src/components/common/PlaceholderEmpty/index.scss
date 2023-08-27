@@ -1,0 +1,23 @@
+.placeholder-empty {
+  margin-top: 100px;
+  text-align: center;
+  color: #a6a0a099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .placeholder-empty-text {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #a6a0a099;
+  }
+
+  .placeholder-empty-start {
+    color:  #9667E0;
+    cursor: pointer;
+  }
+}

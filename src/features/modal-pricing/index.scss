@@ -1,0 +1,10 @@
+.modal-pricing {
+  position: relative;
+
+  // 修改 Modal 组件样式
+  .ant-modal-content {
+    .ant-modal-body {
+      padding: 20px 10px;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.workspace-images {
+  height: calc(100vh - 80px);
+  overflow: auto;
+  min-width: 80px;
+  flex: 1;
+  padding: 0 10px;
+
+  .workspace-images-item {
+    font-size: 0;
+    max-width: 100%;
+    //max-height: 140px;
+    margin: 1px auto 10px;
+    display: block;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .workspace-images-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .workspace-images-btn {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 14px;
+      flex-shrink: 0;
+      width: 73px;
+      height: 24px;
+      color: #000;
+      cursor: pointer;
+    }
+  }
+
+  .no-data {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    flex-direction: column;
+
+    .ant-upload {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    & > img {
+      width: 90px;
+      height: 80px;
+    }
+
+    & > span {
+      display: block;
+    }
+
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .upload {
+      color: #9667E0;
+    }
+  }
+}

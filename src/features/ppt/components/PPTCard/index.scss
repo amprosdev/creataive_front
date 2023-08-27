@@ -1,0 +1,54 @@
+.ppt-card {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  &:hover {
+    background-color: #ededed;
+    img {
+      opacity: 0.7;
+    }
+    .ppt-card-options {
+      display: block;
+    }
+  }
+  .ppt-card-options {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 13px;
+    z-index: 10;
+    font-size: 24px;
+    padding: 2px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 3px;
+    &:hover {
+      color: #fff;
+      background: #9667e0;
+    }
+  }
+  .ppt-card-bg {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+      display: block;
+      background: #c4c4c4;
+    }
+  }
+  .ppt-card-title {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 100%;
+    height: 26px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: none;
+    outline: none;
+  }
+}

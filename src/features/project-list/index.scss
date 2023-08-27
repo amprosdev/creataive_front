@@ -1,0 +1,24 @@
+.desktop {
+  flex-flow:row wrap;
+  display: flex;
+  .file-container {
+    width: 115px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      background-color: #ededed;
+      border-color: rgba(65,70,75,0.1);
+    }
+  }
+  .btn-new-file {
+    width: 70px;
+    height: 70px;
+    background-image: url("./images/plus.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+  }
+}

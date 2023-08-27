@@ -1,0 +1,67 @@
+.form-box {
+  height: 477px;
+  overflow: auto;
+  background: #F9F9F9;
+
+  .question-box {
+    padding: 10px 10px 0 10px;
+
+    .question-text {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+
+    }
+
+    .ant-checkbox-group {
+      display: flex;
+      flex-direction: column;
+
+      .ant-checkbox-wrapper {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .summarize-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
+    .summarize {
+      width: 100%;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .bottom-box {
+      margin-top: auto;
+
+      .other {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+
+      .append-other {
+        width: 442px;
+        height: 37px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        background: none;
+        outline: none;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

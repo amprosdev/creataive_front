@@ -1,0 +1,17 @@
+.ppt {
+  .ppt-head {
+    display: flex;
+    align-items: center;
+    h3 {
+      flex: 1;
+    }
+  }
+  .ppt-my-slides {
+    grid-gap: 24px;
+    display: grid;
+    justify-items: stretch;
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+  }
+}

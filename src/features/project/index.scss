@@ -1,0 +1,23 @@
+.project {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .project-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    h1 {
+      flex: 1;
+    }
+
+    .document-total {
+      color: #a6a0a099;
+    }
+
+    .btn-new-document {
+      margin-left: 20px;
+    }
+  }
+}

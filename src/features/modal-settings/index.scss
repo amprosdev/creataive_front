@@ -1,0 +1,88 @@
+.modal-settings {
+  position: relative;
+
+  //.text-icon-wrapper {
+  //  display: flex;
+  //  align-items: center;
+  //  color: #000;
+  //  font-weight: 500;
+  //  font-size: 12px;
+  //  .text-icon-wrapper-name {
+  //    padding: 2px 10px;
+  //    word-break: keep-all;
+  //    white-space: nowrap;
+  //  }
+  //  img {
+  //    width: 12px;
+  //    height: 12px;
+  //    margin-left: 6px;
+  //    cursor: pointer;
+  //  }
+  //}
+
+  .general-info-wrapper {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 20px;
+    padding: 10px 0;
+
+    .title {
+      color: #000;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .setting-account-wrapper {
+    padding: 6px 6px;
+
+    .account {
+      color: #000;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .setting-organization-wrapper {
+    &-title {
+      color: #000;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 21px;
+      display: block;
+    }
+
+    &-bottom {
+      & > button {
+        background: #9667E0;
+        color: #FFFFFF;
+      }
+    }
+
+    .info {
+      margin-bottom: 68px;
+    }
+  }
+
+  // 修改 Modal 组件样式
+  .ant-modal-content {
+    .ant-modal-body {
+      padding: 10px 0;
+    }
+  }
+
+  .logout-wrapper {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    cursor: pointer;
+
+    .text {
+      margin-left: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #000;
+    }
+  }
+}

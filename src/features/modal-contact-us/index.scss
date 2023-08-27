@@ -1,0 +1,54 @@
+.modal-contact-us {
+  position: relative;
+
+  .contactUs-box {
+    display: flex;
+    justify-content: space-between;
+
+    .contactUs-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 263px;
+
+      .wechat-qrcode {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    .contactUs-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 256px;
+      color: #A6A0A0;
+      .line {
+        height: 97px;
+        width: 0;
+        border: 1px solid #F5F5F5;
+      }
+    }
+    .contactUs-right {
+      display: flex;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+  }
+
+  // 修改 Modal 组件样式
+  .ant-modal-content {
+    .ant-modal-header {
+      margin-bottom: 30px;
+    }
+  }
+  .ant-form-item {
+    margin-bottom: 15px;
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

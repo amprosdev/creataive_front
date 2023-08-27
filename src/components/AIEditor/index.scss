@@ -1,0 +1,110 @@
+.ai-editor {
+  display: flex;
+  .ai-editor-main {
+    flex: 5;
+    padding: 25px;
+    //max-width: 667px;
+    min-width: 320px;
+    height: calc(100vh - 130px);
+    overflow-y: auto;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    .ck-content {
+      min-height: calc(100vh);
+      box-sizing: border-box;
+      border: none;
+      box-shadow: none;
+      padding: 7px;
+      &.ck-focused {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+    .ai-editor-title {
+      font-size: 32px;
+      border-bottom: 1px solid #F2EBFB;
+      position: relative;
+      .ai-editor-btn-generate-title {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #9667E0;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+      textarea {
+        padding-right: 75px;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        box-shadow: none;
+        background: inherit;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 8px;
+        resize: none;
+        &:focus {
+          border-color: rgb(115, 162, 227);
+        }
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.export-image-wrapper {
+  height: 0;
+  overflow: auto;
+}
+.export-image-area {
+  padding: 40px 20px 30px;
+  width: 375px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  p {
+    margin: 5px 0;
+  }
+  .export-image-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .export-image-tail {
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    img {
+      margin: 0;
+    }
+    .export-image-tail-logo {
+      width: 100px;
+    }
+    .export-image-tail-qr {
+      width: 60px;
+      //float: right;
+      //margin-top: -10px;
+    }
+    .export-image-tail-sign {
+      //width: 60px;
+      //float: right;
+      //margin-top: -10px;
+    }
+  }
+}

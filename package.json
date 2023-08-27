@@ -1,0 +1,80 @@
+{
+  "name": "CreatAIve",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.3.41",
+    "@authing/guard-react18": "^5.1.2",
+    "@ckeditor/ckeditor5-react": "^5.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ahooks": "^3.7.5",
+    "antd": "^5.0.4",
+    "axios": "^1.2.1",
+    "ckeditor5-custom-build": "file:./ckeditor5-custom-build",
+    "dayjs": "^1.11.7",
+    "downloadjs": "^1.4.7",
+    "event-source-polyfill": "^1.0.31",
+    "events": "^3.3.0",
+    "html-to-image": "^1.11.11",
+    "markdown-it": "^13.0.1",
+    "marked": "^4.3.0",
+    "mixpanel-browser": "^2.46.0",
+    "mobx-react": "^7.6.0",
+    "normalize.css": "^8.0.1",
+    "pptxgenjs": "^3.12.0",
+    "rc-field-form": "^1.29.1",
+    "react": "^18.2.0",
+    "react-arborist": "^3.0.2",
+    "react-dnd": "14.0.4",
+    "react-dnd-html5-backend": "^14.1.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-intl": "^6.3.2",
+    "react-loadable": "^5.5.0",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "5.0.1",
+    "remark-gfm": "^3.0.1",
+    "reveal.js": "^4.5.0",
+    "reveal.js-appearance": "^1.2.0",
+    "reveal.js-fsfx": "^1.2.0",
+    "sass": "^1.56.1",
+    "store": "^2.0.12",
+    "use-immer": "^0.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "lint": "eslint --ext .js --ext .jsx --ext src/",
+    "translate": "bash ./scripts/translate.sh"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "@formatjs/cli": "^6.0.4",
+    "babel-plugin-formatjs": "^10.4.0",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}

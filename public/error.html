@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Error</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .error-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .title {
+      font-size: 120px;
+      margin: 0;
+      color: #2D3A4A;
+    }
+
+    .content {
+      font-size: 26px;
+      color: #121212;
+    }
+
+    .go-home {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="error-box">
+  <h1 class="title">error</h1>
+  <p class="content">糟糕，页面出错了！</p>
+  <a class="go-home" href="/">返回首页</a>
+</div>
+</body>
+</html>

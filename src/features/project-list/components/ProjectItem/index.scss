@@ -1,0 +1,28 @@
+.file-item {
+  text-align: center;
+  position: relative;
+  .file-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background: url("../../images/folder.png");
+    background-size: 100%;
+  }
+  &:hover {
+    .file-dustbin {
+      visibility: visible;
+    }
+  }
+  .file-dustbin {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: url("../../images/dustbin.svg");
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+  }
+}

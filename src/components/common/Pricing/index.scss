@@ -1,0 +1,125 @@
+.plans-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  .plan-box {
+    min-width: 186px;
+    width: 186px;
+    height: 308px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    //margin-right: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top-container {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #9667E0;
+        text-align: center;
+      }
+
+      .price {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+        margin-top: 6px;
+
+        .price-text {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .strong {
+            font-size: 24px;
+            margin-right: 4px;
+          }
+        }
+      }
+
+      .rights {
+        display: flex;
+        flex-direction: column;
+        margin: 14px auto 0;
+
+        .right {
+          font-weight: 500;
+          font-size: 14px;
+          color: #000;
+          display: flex;
+          align-items: flex-start;
+
+          img {
+            margin: 4px 10px 0 0;
+          }
+        }
+      }
+    }
+
+    .bottom-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .expired-date {
+        font-size: 12px;
+        color: #A6A0A0;
+        margin-bottom: 5px;
+      }
+      .footer {
+        .text-footer {
+          font-weight: 500;
+          font-size: 16px;
+          color: #9667E0;
+          text-align: center;
+          line-height: 36px;
+          cursor: pointer;
+
+          .strong {
+            font-weight: 700;
+            font-size: 32px;
+            margin-right: 4px;
+          }
+        }
+
+        .upgrade-btn {
+          width: 164px;
+          height: 36px;
+          line-height: 36px;
+          color: #fff;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 600;
+          background: #9667E0;
+          border-radius: 6px;
+          margin-left: 6px;
+        }
+
+        .contact-btn {
+          width: 164px;
+          height: 36px;
+          line-height: 36px;
+          color: #000;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 600;
+          background: #EBD9FC;
+          border-radius: 6px;
+          margin-left: 6px;
+          cursor: pointer;
+
+          &:hover {
+            color: #6c6a6a;
+          }
+        }
+      }
+    }
+  }
+}
